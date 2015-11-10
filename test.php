@@ -1,0 +1,6 @@
+<?php
+
+echo "hiiiiiiiii"; 
+die;
+
+?>

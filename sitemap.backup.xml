@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.sayenkodesign.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.8.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.4" -->
+<!-- generated-on="April 4, 2014 11:59 pm" -->
+<!-- Debug: Total comment count: 74 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://www.sayenkodesign.com/</loc>
+		<lastmod>2014-04-01T23:17:54+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://www.sayenkodesign.com/test-map/</loc>
+		<lastmod>2014-04-04T23:58:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/contact-bellevue-graphic-design-firm/</loc>
+		<lastmod>2014-04-03T19:08:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/test-contact/</loc>
+		<lastmod>2014-03-31T05:21:47+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/services/</loc>
+		<lastmod>2014-03-28T21:27:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/estimate/</loc>
+		<lastmod>2014-03-28T21:26:17+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/bellevue-graphic-design-company/</loc>
+		<lastmod>2014-03-28T05:24:20+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/reviews/</loc>
+		<lastmod>2014-03-24T09:55:34+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/</loc>
+		<lastmod>2014-03-22T08:49:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/shop/</loc>
+		<lastmod>2014-03-01T08:08:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/bellevue-search-engine-optimization/</loc>
+		<lastmod>2014-02-20T08:58:50+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/account/logout/</loc>
+		<lastmod>2014-01-23T21:18:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/account/</loc>
+		<lastmod>2014-01-23T21:08:43+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/checkout/</loc>
+		<lastmod>2014-01-23T21:06:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/shopping-cart/</loc>
+		<lastmod>2014-01-23T21:05:45+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/affordable-website-hosting/</loc>
+		<lastmod>2014-01-21T10:10:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 4336: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/6-must-have-wordpress-plugins/</loc>
+		<lastmod>2014-01-15T01:42:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 260: Comments: 1 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/graphic-design-101-%e2%80%93-the-importance-of-a-good-header/</loc>
+		<lastmod>2013-11-18T09:34:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1154: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/sayenko-design-involvement-with-run-of-the-mill-5k-road-race/</loc>
+		<lastmod>2013-11-18T09:31:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1434: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/bellevue-wordpress-custom-design/</loc>
+		<lastmod>2013-11-12T08:23:39+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/contact-page/</loc>
+		<lastmod>2013-10-22T00:28:29+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 708: Comments: 1 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/what-makes-a-successful-facebook-fan-page/</loc>
+		<lastmod>2013-10-21T19:40:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1220: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/wordpress-statistics-is-king-of-cms/</loc>
+		<lastmod>2013-10-21T10:40:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1580: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/top-graphic-design-trends-in-2013/</loc>
+		<lastmod>2013-10-21T10:38:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/articles/</loc>
+		<lastmod>2013-10-21T08:28:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/photography/</loc>
+		<lastmod>2013-09-28T17:28:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/bellevue-custom-wordpress-themes-custom-web-design/</loc>
+		<lastmod>2013-06-17T18:10:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/home/</loc>
+		<lastmod>2013-06-13T00:33:43+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/payments/</loc>
+		<lastmod>2013-06-03T02:38:28+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/google-maps/</loc>
+		<lastmod>2013-05-24T20:57:55+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/about-me/</loc>
+		<lastmod>2013-05-24T20:01:55+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/product-launch/</loc>
+		<lastmod>2013-05-24T19:58:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/apparel/</loc>
+		<lastmod>2013-05-15T17:55:19+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/branding/</loc>
+		<lastmod>2013-05-15T17:43:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 1533: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/top-web-design-trends-of-2013/</loc>
+		<lastmod>2013-05-08T05:50:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/portfolio/bellevue-print-designer/</loc>
+		<lastmod>2013-04-30T21:05:45+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/user-reviews/</loc>
+		<lastmod>2013-04-08T23:16:22+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/our-office/</loc>
+		<lastmod>2013-04-04T15:18:43+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 1251: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/10-rules-for-choosing-the-right-brand-web-domain-name/</loc>
+		<lastmod>2013-03-28T18:02:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/ftp/</loc>
+		<lastmod>2012-12-29T07:18:08+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 590: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/be-social-join-us/</loc>
+		<lastmod>2012-12-23T03:17:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 432: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/twitter-the-right-way-5-dos-and-donts/</loc>
+		<lastmod>2012-12-23T03:17:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 434: Comments: 2 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/to-facebook-or-to-twitter-whats-the-difference-anyway/</loc>
+		<lastmod>2012-12-23T03:16:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 725: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/15-off-all-web-design-and-graphic-design-services/</loc>
+		<lastmod>2012-12-23T03:14:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 639: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/end-of-the-year-sale-15-off-web-design-and-graphic-design-services/</loc>
+		<lastmod>2012-12-23T03:13:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 463: Comments: 1 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/blogging-basics/</loc>
+		<lastmod>2012-12-23T03:12:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 398: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/branding-do-i-really-need-it/</loc>
+		<lastmod>2012-12-23T03:10:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 514: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/babies-going-green/</loc>
+		<lastmod>2012-12-23T03:09:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 849: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/launch-of-gogo-running/</loc>
+		<lastmod>2012-12-23T03:08:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1109: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/launch-of-vitazapp/</loc>
+		<lastmod>2012-12-23T03:06:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 808: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/launch-of-vintage-ambiance/</loc>
+		<lastmod>2012-12-23T03:06:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 652: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/launch-of-northwest-canopies/</loc>
+		<lastmod>2012-12-23T03:05:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 676: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/online-videos-to-rule-in-2010/</loc>
+		<lastmod>2012-12-23T03:03:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 537: Comments: 2 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/cms-tools-what-is-it-do-you-need-it/</loc>
+		<lastmod>2012-12-23T03:02:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 623: Comments: 1 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/should-i-build-my-website-in-adobe-flash-or-html/</loc>
+		<lastmod>2012-12-23T03:00:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 890: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/recap-of-mike-sayenkos-marathon-run-at-the-world-championships/</loc>
+		<lastmod>2012-12-23T02:58:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1061: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/graphic-design-trends/</loc>
+		<lastmod>2012-12-23T02:57:15+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 551: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/why-is-blogging-weekly-important-blogging-strategy-for-web-20/</loc>
+		<lastmod>2012-12-23T02:56:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 682: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/please-become-a-fan-of-the-sayenko-design-facebook-page/</loc>
+		<lastmod>2012-12-23T02:55:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 754: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/creating-a-professional-home-page/</loc>
+		<lastmod>2012-12-23T02:53:56+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/testimonials/</loc>
+		<lastmod>2012-10-23T04:17:01+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 573: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/don%e2%80%99t-make-me-think-how-to-communicate-effectively-on-the-web/</loc>
+		<lastmod>2012-08-31T18:59:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 486: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/our-process-what-does-it-look-like/</loc>
+		<lastmod>2011-01-03T18:23:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 699: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/why-use-css-cascading-style-sheet/</loc>
+		<lastmod>2010-04-28T06:00:56+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 453: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/more-than-an-image-web-design-with-strategy/</loc>
+		<lastmod>2009-04-24T03:10:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 423: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/communication-in-the-21st-century/</loc>
+		<lastmod>2009-03-05T04:22:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 389: Comments: 0 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/2009-brings-new-direction-for-sayenko-design/</loc>
+		<lastmod>2009-01-30T21:22:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 324: Comments: 1 of 74 = 0 points -->
+	<url>
+		<loc>http://www.sayenkodesign.com/social-network-marketing-a-beginners-guide/</loc>
+		<lastmod>2009-01-13T02:20:51+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/sitemap/</loc>
+		<lastmod>2008-12-19T03:43:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.sayenkodesign.com/feedback/</loc>
+		<lastmod>2008-11-13T01:01:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

@@ -94,5 +94,6 @@ forum/*
 *.tgz
 *.gz
 
+.idea/
 wp-content/wp-config.php
 wp-content/mysql.sql

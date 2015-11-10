@@ -4,6 +4,41 @@ Description: Child theme for Sayenko Design
 Author: Sayenko Design
 Template: SD
 */
+
+/**
+ * Push and Pull
+ *
+ * the grid does not support push and pull.
+ * This will add the classes to add some basic push an pull support.
+ *
+ * The values have 4% added to them to account for the gutter
+ */
+@media only screen and (min-width: 801px) {
+    .fusion-column.fusion-push-one-sixth    { left: 17.3333%; }
+    .fusion-column.fusion-push-five-sixth   { left: 86.6666%; }
+    .fusion-column.fusion-push-one-fifth    { left: 20.8%;    }
+    .fusion-column.fusion-push-two-fifth    { left: 41.6%;    }
+    .fusion-column.fusion-push-three-fifth  { left: 62.4%;    }
+    .fusion-column.fusion-push-four-fifth   { left: 83.2%;    }
+    .fusion-column.fusion-push-one-fourth   { left: 26%;      }
+    .fusion-column.fusion-push-three-fourth { left: 78%;      }
+    .fusion-column.fusion-push-one-third    { left: 34.6666%; }
+    .fusion-column.fusion-push-two-third    { left: 69.3333%; }
+    .fusion-column.fusion-push-one-half     { left: 52%;      }
+
+    .fusion-column.fusion-pull-one-sixth    { right: 17.3333%; }
+    .fusion-column.fusion-pull-five-sixth   { right: 86.6666%; }
+    .fusion-column.fusion-pull-one-fifth    { right: 20.8%;    }
+    .fusion-column.fusion-pull-two-fifth    { right: 41.6%;    }
+    .fusion-column.fusion-pull-three-fifth  { right: 62.4%;    }
+    .fusion-column.fusion-pull-four-fifth   { right: 83.2%;    }
+    .fusion-column.fusion-pull-one-fourth   { right: 26%;      }
+    .fusion-column.fusion-pull-three-fourth { right: 78%;      }
+    .fusion-column.fusion-pull-one-third    { right: 34.6666%; }
+    .fusion-column.fusion-pull-two-third    { right: 69.3333%; }
+    .fusion-column.fusion-pull-one-half     { right: 52%;      }
+}
+
 .fa-phone::before {
     color: #747474 !important;
 }

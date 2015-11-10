@@ -95,5 +95,5 @@ forum/*
 *.gz
 
 .idea/
-wp-content/wp-config.php
+wp-config.php
 wp-content/mysql.sql

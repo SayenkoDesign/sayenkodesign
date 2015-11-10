@@ -1,41 +1,12 @@
 /*
-
-
-
 Theme Name: SD Child
-
-
-
 Description: Child theme for Sayenko Design
-
-
-
 Author: Sayenko Design
-
-
-
 Template: SD
-
-
-
 */
-
-
 .fa-phone::before {
     color: #747474 !important;
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*---- ADDING GAP ON CASE STUDY PAGE-----*/
 
@@ -44,1817 +15,440 @@ body.page-id-7112 .fusion-fullwidth .fusion-imageframe {
     display: inline-block !important;
 }
 
-
 /*---- REMOVE SOCIAL ICONS IN MOBILE HEADER-----*/
 
-
-
-@media only screen and (max-width: 800px){
-
-
-
-#wrapper .header-social {
-
-
-
-display: none !important;
-
-
-
+@media only screen and (max-width: 800px) {
+    #wrapper .header-social {
+        display: none !important;
+    }
 }
-
-
-
-}
-
-
-
-
-
-
 
 /*---- NEWSLETTER POP UP-----*/
 
-
-
 #close_cross {
-
-
-
     cursor: pointer;
-
-
-
     position: absolute;
-
-
-
     right: 22px !important;
-
-
-
     top: 22px !important;
-
-
-
     width: 20px !important;
-
-
-
 }
-
-
-
-
-
-
 
 #elegance-modal-box {
-
-
-
     background-attachment: scroll;
-
-
-
     background-clip: border-box;
-
-
-
     background-color: #fff;
-
-
-
     background-image: none;
-
-
-
     background-origin: padding-box;
-
-
-
     background-position: 0 0;
-
-
-
     background-repeat: repeat;
-
-
-
     background-size: auto auto;
-
-
-
     height: 100%;
-
-
-
     padding-bottom: 40px;
-
-
-
     padding-left: 40px;
-
-
-
     padding-right: 40px;
-
-
-
     padding-top: 40px;
-
-
-
     position: relative;
-
-
-
     width: 100%;
-
-
-
     border-top-color: #009fe3;
-
-
-
-   border-top-style: solid;
-
-
-
+    border-top-style: solid;
     border-top-width: 10px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #elegance-modal-close {
-
-
-
     background-attachment: scroll;
-
-
-
     background-image: none;
-
-
-
     background-origin: padding-box;
-
-
-
     background-position: 0 0;
-
-
-
     background-repeat: repeat;
-
-
-
     background-size: auto auto;
-
-
-
     color: #747474;
-
-
-
     cursor: pointer;
-
-
-
     display: inline-block;
-
-
-
     float: right;
-
-
-
     font-size: 23px;
-
-
-
     position: absolute;
-
-
-
     right: 10px;
-
-
-
     text-align: center;
-
-
-
     text-transform: lowercase;
-
-
-
     top: 10px;
-
-
-
     width: 30px;
-
-
-
     z-index: 9;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-- PORTFOLIO TEXT ROLLOVER ON THUMB---*/
 
-
-
 .image .image-extras .image-extras-content h3, .image .image-extras .image-extras-content h2, .image .image-extras .image-extras-content a {
-
-
-
-  
-
-
-
     font-size: 16px !important;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 /*-- ROUNDED Testimonials HEAD SHOTS---*/
 
-
-
-
-
-
-
 .box-round, .box-rect, .box-square, .box-hex {
-
-
-
     display: block;
-
-
-
     margin-bottom: 24px;
-
-
-
     margin-left: auto;
-
-
-
     margin-right: auto;
-
-
-
     margin-top: 0;
-
-
-
     max-width: 100%;
-
-
-
     position: relative;
-
-
-
     text-align: center;
-
-
-
     width: 200px;
-
-
-
     z-index: 100;
-
-
-
 }
-
-
-
-
-
-
 
 .box-dummy {
-
-
-
     padding-top: 100%;
-
-
-
 }
-
-
-
-
-
-
 
 .box-round .box-inner {
-
-
-
     border-bottom-left-radius: 50%;
-
-
-
     border-bottom-right-radius: 50%;
-
-
-
     border-top-left-radius: 50%;
-
-
-
     border-top-right-radius: 50%;
-
-
-
 }
-
-
 
 .box-inner {
-
-
-
     height: 74%;
-
-
-
     left: 0;
-
-
-
     overflow-x: hidden;
-
-
-
     overflow-y: hidden;
-
-
-
     position: absolute;
-
-
-
     top: 0;
-
-
-
     width: 74%;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-- FOOTER SERVICE LINKS---*/
 
-
-
-
-
-
-
 .footer-area ul li a {
-
-
-
     border-bottom-style: none !important;
-
-
-
     border-bottom-width: 0 !important;
-
-
-
     display: block !important;
-
-
-
     padding-bottom: 0 !important;
-
-
-
     padding-left: 0 !important;
-
-
-
     padding-right: 0 !important;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---- GRAVITY FORM -----*/
 
-
-
 .gform_wrapper .top_label li.gfield.gf_right_half {
-
-
-
     margin-bottom: 0px;
-
-
-
     margin-left: 0;
-
-
-
     margin-right: 0;
-
-
-
     margin-top: 0;
-
-
-
     width: 49%;
-
-
-
 }
-
-
-
-
-
-
 
 .gravity-select-parent {
-
-
-
-    height: 33px !important; 
-
-
-
-   
-
-
-
+    height: 33px !important;
 }
-
-
-
-
-
-
 
 #wrapper .gform_wrapper .gravity-select-parent select {
-
-
-
     margin-bottom: 0px;
-
-
-
     margin-left: 0px;
-
-
-
     margin-right: 0;
-
-
-
     margin-top: 0;
-
-
-
- height: 33px !important; 
-
-
-
+    height: 33px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #wrapper .header-social .header-info, #wrapper .header-social .tel a {
-
-
-
+.header-info a {
     color: #747474 !important;
-
-
-
-}*/
-
-
-
-
-
-
-
-
-
-
-
-.header-info a{color: #747474 !important;}
-
-
-
-
-
-
-
-
-
-
+}
 
 /* ---- FOOTER STYLES -----*/
 
-
-
 .footer-area .widget_recent_entries li {
-
-
-
     border-bottom-style: none !important;
-
-
-
     border-bottom-width: 0 !important;
-
-
-
     padding-bottom: 0 !important;
-
-
-
     color: #8c8989;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .footer-area ul li a {
-
-
-
-   
-
-
-
     padding-top: 10px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .fusion-reading-box-container {
-
-
-
     margin-bottom: 34px;
-
-
-
     position: relative;
-
-
-
     z-index: 1;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 body.page-id-5910 .reading-box a.button {
-
-
-
-width: 140px !important;
-
-
-
-margin: 0 auto !important;
-
-
-
-display: inline-block !important;
-
-
-
+    width: 140px !important;
+    margin: 0 auto !important;
+    display: inline-block !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 .modal-lg {
-
-
-
     max-width: 100%;
-
-
-
 }
-
-
-
-
-
-
 
 .fusion-button.button-darkgray, .fusion-button.button-darkgray.wpcf7-submit, .button.darkgray {
-
-
-
     -moz-border-bottom-colors: none;
-
-
-
     -moz-border-left-colors: none;
-
-
-
     -moz-border-right-colors: none;
-
-
-
     -moz-border-top-colors: none;
-
-
-
     background-attachment: scroll;
-
-
-
     background-clip: border-box;
-
-
-
     background-color: #c0c0c0;
-
-
-
     background-image: none !important;
-
-
-
     background-origin: padding-box;
-
-
-
     background-position: 0 0;
-
-
-
     background-repeat: repeat;
-
-
-
     background-size: auto auto;
-
-
-
     border-bottom-color: #434c50;
-
-
-
     border-bottom-style: solid;
-
-
-
     border-bottom-width: 1px;
-
-
-
     border-image-outset: 0 0 0 0;
-
-
-
     border-image-repeat: stretch stretch;
-
-
-
     border-image-slice: 100% 100% 100% 100%;
-
-
-
     border-image-source: none;
-
-
-
     border-image-width: 1 1 1 1;
-
-
-
     border-left-color-ltr-source: physical;
-
-
-
     border-left-color-rtl-source: physical;
-
-
-
     border-left-color-value: #434c50;
-
-
-
     border-left-style-ltr-source: physical;
-
-
-
     border-left-style-rtl-source: physical;
-
-
-
     border-left-style-value: solid;
-
-
-
     border-left-width-ltr-source: physical;
-
-
-
     border-left-width-rtl-source: physical;
-
-
-
     border-left-width-value: 1px;
-
-
-
     border-right-color-ltr-source: physical;
-
-
-
     border-right-color-rtl-source: physical;
-
-
-
     border-right-color-value: #434c50;
-
-
-
     border-right-style-ltr-source: physical;
-
-
-
     border-right-style-rtl-source: physical;
-
-
-
     border-right-style-value: solid;
-
-
-
     border-right-width-ltr-source: physical;
-
-
-
     border-right-width-rtl-source: physical;
-
-
-
     border-right-width-value: 1px;
-
-
-
     border-top-color: #434c50;
-
-
-
     border-top-style: solid;
-
-
-
     border-top-width: 1px;
-
-
-
     color: #434c50;
-
-
-
 }
-
-
-
-
-
-
-
-/*  ASK OUR EXPERT header text*/
-
-
-
-#wrapper .header-social .header-info, #wrapper .header-social a {
-
-
-
-    /* color: #747474 !imprtant;*/
-
-
-
-}
-
-
-
-
-
-
 
 a.fusion-modal-text-link {
-
-
-
-color:#747474 !important;
-
-
-
- padding-left: 11px;
-
-
-
+    color: #747474 !important;
+    padding-left: 11px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*  ASK OUR EXPERT FORM STYLING for Modal*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .modal-content {
-
-
-
     -moz-border-bottom-colors: none;
-
-
-
     -moz-border-left-colors: none;
-
-
-
     -moz-border-right-colors: none;
-
-
-
     -moz-border-top-colors: none;
-
-
-
     background-clip: padding-box;
-
-
-
     background-color: #ffffff;
-
-
-
     border-bottom-color: rgba(0, 0, 0, 0.2);
-
-
-
     border-bottom-left-radius: 0;
-
-
-
     border-bottom-right-radius: 1px;
-
-
-
     border-bottom-style: solid;
-
-
-
     border-bottom-width: 0;
-
-
-
     border-image-outset: 0 0 0 0;
-
-
-
     border-image-repeat: stretch stretch;
-
-
-
     border-image-slice: 100% 100% 100% 100%;
-
-
-
     border-image-source: none;
-
-
-
     border-image-width: 0 1 1 1;
-
-
-
     border-left-color-ltr-source: physical;
-
-
-
     border-left-color-rtl-source: physical;
-
-
-
     border-left-style-ltr-source: physical;
-
-
-
     border-left-style-rtl-source: physical;
-
-
-
     border-left-style-value: solid;
-
-
-
     border-left-width-ltr-source: physical;
-
-
-
     border-left-width-rtl-source: physical;
-
-
-
     border-right-color-ltr-source: physical;
-
-
-
     border-right-color-rtl-source: physical;
-
-
-
     border-right-color-value: rgba(0, 0, 0, 0.2);
-
-
-
     border-right-style-ltr-source: physical;
-
-
-
     border-right-style-rtl-source: physical;
-
-
-
     border-right-style-value: solid;
-
-
-
     border-right-width-ltr-source: physical;
-
-
-
     border-right-width-rtl-source: physical;
-
-
-
     border-top-color: #009fe3;
-
-
-
     border-top-left-radius: 0;
-
-
-
     border-top-right-radius: 0;
-
-
-
     border-top-style: solid;
-
-
-
     border-top-width: 10px;
-
-
-
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-
-
-
     outline-color: -moz-use-text-color;
-
-
-
     outline-style: none;
-
-
-
     outline-width: medium;
-
-
-
     position: relative;
-
-
-
 }
-
-
-
-
-
-
 
 .button.default, .gform_wrapper .gform_button, #comment-submit, .woocommerce form.checkout #place_order, .woocommerce .single_add_to_cart_button, #reviews input#submit, .woocommerce .login .button, .woocommerce .register .button, .bbp-submit-wrapper button, .wpcf7-form input[type="submit"], .wpcf7-submit {
-
-
-
     border-bottom-color: #ffffff;
-
-
-
     border-left-color-ltr-source: physical;
-
-
-
     border-left-color-rtl-source: physical;
-
-
-
     border-left-color-value: #ffffff;
-
-
-
     border-right-color-ltr-source: physical;
-
-
-
     border-right-color-rtl-source: physical;
-
-
-
     border-right-color-value: #ffffff;
-
-
-
     border-top-color: #ffffff;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*   ----MODAL----   */
 
-
-
-
-
-
-
 .fusion-modal .modal-header {
-
-
-
     min-height: 23px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .modal-lg {
-
-
-
     width: 573px;
-
-
-
 }
-
-
-
-
-
-
 
 .modal-body {
-
-
-
     padding-bottom: 20px;
-
-
-
     padding-left: 20px;
-
-
-
     padding-right: 20px;
-
-
-
     padding-top: 0;
-
-
-
     position: relative;
-
-
-
 }
-
-
-
-
-
-
 
 .modal-header {
-
-
-
     border-bottom-color: #e5e5e5;
-
-
-
     border-bottom-style: solid;
-
-
-
     border-bottom-width: 0;
-
-
-
     min-height: 16.5385px;
-
-
-
     padding-bottom: 15px;
-
-
-
     padding-left: 20px;
-
-
-
     padding-right: 20px;
-
-
-
     padding-top: 15px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 /*   ----LINE UNDER TITLE----   */
 
-
-
 .tx-div {
-
-
-
     background-color: #fff;
-
-
-
     display: block;
-
-
-
     height: 3px;
-
-
-
-   
-
-
-
     opacity: 0.53;
-
-
-
-
-
-
-
- margin-bottom: 25px;
-
-
-
+    margin-bottom: 25px;
     margin-left: auto;
-
-
-
     margin-right: auto;
-
-
-
     margin-top: 15px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .tx-div2 {
-
-
-
     background-color: #000;
-
-
-
     display: block;
-
-
-
     height: 2px;
-
-
-
     margin-bottom: 13px;
-
-
-
     margin-left: auto;
-
-
-
     margin-right: auto;
-
-
-
     margin-top: 25px;
-
-
-
     opacity: 0.53;
-
-
-
 }
-
-
-
-
-
-
 
 .tx-div2.small {
-
-
-
     width: 80px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .tx-div.small {
-
-
-
     width: 80px;
-
-
-
 }
 
+/*  END of --- ASK OUR EXPERT FORM STYLING for Modal*/
 
+a.button-2, a.button-2:hover {
+    border-style: solid;
+    border-color: #747474 !important;
+    border-width: 2px !important;
+    color: #747474 !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important
+}
 
+a.button-2 {
+    background: transparent;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(transparent)) !important;
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: -moz-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: -o-linear-gradient(bottom, transparent, transparent) !important;
+    background-image: linear-gradient(to top, transparent, transparent) !important
+}
 
-
-
-
-
-
-
-
- /*  END of --- ASK OUR EXPERT FORM STYLING for Modal*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a.button-2,a.button-2:hover{border-style:solid;border-color:#747474!important;border-width:2px!important;color:#747474!important;text-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important}a.button-2{background:transparent;background-image:-webkit-gradient( linear, left bottom, left top, from( transparent ), to( transparent ) )!important;background-image:-webkit-linear-gradient( bottom, transparent, transparent )!important;background-image:-moz-linear-gradient( bottom, transparent, transparent )!important;background-image:-o-linear-gradient( bottom, transparent, transparent )!important;background-image:linear-gradient( to top, transparent, transparent )!important}a.button-2:hover{background:rgba(255, 255, 255, 0.15);background-image:-webkit-gradient( linear, left bottom, left top, from( rgba(255, 255, 255, 0.15) ), to( rgba(255, 255, 255, 0.15) ) )!important;background-image:-webkit-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:-moz-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:-o-linear-gradient( bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important;background-image:linear-gradient( to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) )!important}
-
-
-
-
-
-
-
-
-
-
+a.button-2:hover {
+    background: rgba(255, 255, 255, 0.15);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15))) !important;
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important
+}
 
 /* Mobile Menu */
 
-
-
 .mobile-logo-pos-left .mobile-menu-icons {
-
-
-
     float: right;
-
-
-
     margin-top: 39px !important;
-
-
-
 }
-
-
-
-
-
-
 
 .mobile-menu-icons a {
-
-
-
     float: right;
-
-
-
     font-size: 29px;
-
-
-
     margin-left: 20px;
-
-
-
-    margin-top: 1px; 
-
-
-
+    margin-top: 1px;
     color: #747474 !important;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .mobile-nav-holder .mobile-selector .selector-down::before, .mobile-menu-icons a, .mobile-menu-icons a::before, .mobile-topnav-holder .mobile-selector .selector-down::before {
-
-
-
     color: #747474 !important;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Carousel */
 
-
-
-
-
-
-
 .clients-carousel .es-carousel li img {
-
-
-
     border: none !important;
-
-
-
     max-height: 115px;
-
-
-
     vertical-align: middle;
-
-
-
 }
 
-
-
-
-
-
-
 /* Buttons */
-
-
 
 .button.large {
-
-
-
     box-shadow: none important;
-
-
-
-  /*  height: 43px;*/
-
-
-
     padding: 0 30px;
-
-
-
     text-align: center;
-
-
-
     text-shadow: none important;
-
-
-
     text-transform: uppercase;
-
-
-
-line-height: 39px;
-
-
-
+    line-height: 39px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Buttons */
 
-
-
 .button.green {
-
-
-
     background: none repeat scroll 0 0 #009FE3 !important;
-
-
-
     border: 0 none;
-
-
-
     color: #FFFFFF !important;
-
-
-
-    font-weight:300 !important;
-
-
-
-    margin-left:10px !important;
-
-
-
+    font-weight: 300 !important;
+    margin-left: 10px !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 .button.small {
-
-
-
-
-
-
-
-    margin-left:10px !important;
-
-
-
+    margin-left: 10px !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 .button.green:hover {
-
-
-
-    background: none repeat scroll 0 0 #2AB2E6!important;
-
-
-
+    background: none repeat scroll 0 0 #2AB2E6 !important;
     border: 0 none;
-
-
-
     color: #FFFFFF !important;
-
-
-
-    text-decoration:none;
-
-
-
-}
-.phone-icon
-{
-	display:block !important;	
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
+.phone-icon {
+    display: block !important;
+}
 
 .post-content ul.arrow li:before {
-
-
-
     background-color: #009fe3 !important;
-
-
-
-  
-
-
-
 }
 
-
-
-
-
-
-
 #nav, .side-nav li a {
-
-
-
     text-transform: uppercase !important;
-
-
-
 }

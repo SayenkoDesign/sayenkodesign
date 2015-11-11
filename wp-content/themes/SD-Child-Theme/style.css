@@ -43,13 +43,6 @@ Template: SD
     color: #747474 !important;
 }
 
-/*---- ADDING GAP ON CASE STUDY PAGE-----*/
-
-body.page-id-7112 .fusion-fullwidth .fusion-imageframe {
-    margin-bottom: 30px !important;
-    display: inline-block !important;
-}
-
 /*---- REMOVE SOCIAL ICONS IN MOBILE HEADER-----*/
 
 @media only screen and (max-width: 800px) {

@@ -1,0 +1,21 @@
+
+# BEGIN Far Future Expiration Plugin
+<IfModule mod_expires.c>
+ExpiresActive on
+<FilesMatch "\.(gif|jpeg|jpg|png|ico|js|css|swf)$">
+ExpiresDefault "access plus 720 hours"
+</FilesMatch>
+</IfModule>
+# END Far Future Expiration Plugin
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

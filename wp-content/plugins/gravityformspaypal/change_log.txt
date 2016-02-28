@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------
+Version 2.6
+    - Added support for sending notifications on payment/subscription events. Configured on the edit notification page using the 'Event' setting.
+    - Added the gform_paypal_sslverify filter to allow sslverify be modified before sending requests.
+        Example - turn off SSL verification:
+            add_filter( 'gform_paypal_sslverify', '__return_false' );
+    - Updated the installation process to activate sslverify by default for all new installations.
+    - Updated tooltip and label for the notifications setting on the feed to indicate it only affects notifications for the 'Form is submitted' event.
+    - Fixed an issue in redirect_url() where the entry currency was not being used.
+
+---------------------------------------------------------------------
 Version 2.5.1
     - Fixed a fatal error which could occur if the IPN request check added in v2.5 returned a WP_Error object.
 

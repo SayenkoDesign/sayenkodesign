@@ -4,6 +4,8 @@ function avada_child_scripts() {
 		$theme_info = wp_get_theme();
 		wp_enqueue_style( 'avada-child-stylesheet', get_template_directory_uri() . '/style.css', array(), $theme_info->get( 'Version' ) );
 	}
+    wp_register_script('child', get_stylesheet_directory_uri() . '/app.js', ['jquery']);
+    wp_enqueue_script('child');
 }
 add_action('wp_enqueue_scripts', 'avada_child_scripts');
 

@@ -489,3 +489,35 @@ a.button-2:hover {
 .page-id-7112 #main { padding-top: 0; }
 
 .page-id-7207 #main { padding-top: 0 !important; }
+
+#main .fusion-animated .heading-link h2 {
+    margin-top: 18px;
+}
+.fusion-animated .heading-link .image {
+    height: 148px;
+}
+.fusion-animated .heading-link.active img {
+    position:relative;
+    bottom: 220px;
+}
+
+#animted-icons1 .fusion-column:nth-child(1) .fusion-animated .heading-link.active img {
+    bottom: 220px;
+}
+#animted-icons1 .fusion-column:nth-child(2) .fusion-animated .heading-link.active img {
+    bottom: 226px;
+}
+#animted-icons1 .fusion-column:nth-child(3) .fusion-animated .heading-link.active img {
+    bottom: 222px;
+}
+
+#animted-icons2 .fusion-column:nth-child(1) .fusion-animated .heading-link.active img {
+    bottom: 219px;
+}
+#animted-icons2 .fusion-column:nth-child(2) .fusion-animated .heading-link.active img {
+    bottom: 217px;
+    left: 3px;
+}
+#animted-icons2 .fusion-column:nth-child(3) .fusion-animated .heading-link.active img {
+    bottom: 219px;
+}

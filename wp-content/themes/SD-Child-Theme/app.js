@@ -26,7 +26,7 @@ jQuery(function() {
             console.log('took ' + source + ' ' + (end_time - start_time) + ' to load');
             setTimeout(function() {
                 jQuery(that).removeClass('active');
-            }, 10000);
+            }, 6000);
         }).each(function() {
             if(this.complete) jQuery(this).load();
         });

@@ -1,9 +1,9 @@
 === Gravity Forms Google Analytics Event Tracking ===
 Contributors: nmarks, ronalfy
-Tags: gravity forms, google analytics, event tracking, adopt-me
+Tags: gravity forms, google analytics, event tracking
 Requires at least:4.0
-Tested up to: 4.4
-Stable tag: 1.6.5
+Tested up to: 4.5
+Stable tag: 1.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,12 +29,20 @@ Looking for help setting things up? [Read My Setup Guide](http://nvis.io/x8fld)
 - Awesomeness
 
 = Configuration =
-After installing, you setup your UA ID in the Event Tracking tab on Gravity Forms' settings page and then customize your event category/action/label/value on the form event tracking settings page (see screenshots for more information).
+If you meet all the requirements of this plugin, you can simply install this plugin in your WordPress plugins folder.
+
+Once this plugin is activated, you can browse to the Gravity Forms settings and find a new sub-menu item called <strong>Event Tracker</strong>.  There, you will enter your <a href="https://support.google.com/analytics/answer/1032385?hl=en">Google Analytics Tracking Code</a>.
+
+The plugin provides some <a href="http://www.nvisionsolutions.ca/blog/search-engine-optimization/gravity-forms-scalable-event-tracking-google-analytics/">default event categories, labels, and actions</a>.  You can override these per form by going into the individual form's settings. 
+
+Within Google Analytics, you will want to set up an <a href="https://support.google.com/analytics/answer/1032415?hl=en">event-based goal</a> and match the event label, event category, and event action with the ones you set up.
+
+On each form, you need to make sure to setup an Event Tracking Feed. Open each forms settings, go to the "Event Tracking" section, and set one up. Leave the fields blank to use the default values.
 
 For payment based forms, you can leave the value blank to convert using the total payment amount.
 
 = Hooks/Filters =
-Check out the documentation on [github](https://github.com/nathanmarks/wordpress-gravity-forms-event-tracking)
+Check out the documentation on [github](https://github.com/ronalfy/wordpress-gravity-forms-event-tracking)
 
 == Installation ==
 
@@ -73,7 +81,7 @@ Looking for help setting things up? [Read My Setup Guide](http://nvis.io/x8fld)
 
 = Are there any filters/hooks? =
 
-Check out the documentation on [github](https://github.com/nathanmarks/wordpress-gravity-forms-event-tracking)
+Check out the documentation on [github](https://github.com/ronalfy/wordpress-gravity-forms-event-tracking)
 
 == Screenshots ==
 
@@ -82,6 +90,19 @@ Check out the documentation on [github](https://github.com/nathanmarks/wordpress
 3. The feed settings page
 
 == Changelog ==
+
+= 1.7.1 =
+* Released 2016-03-28
+* Hotfix - Removing SSL requirement. Needs more testing.
+
+= 1.7.0 =
+* Released 2016-03-28
+* Plugin will now display an error if an incompatible version of PHP is installed.
+* Bug Fix: Plugin no longer shows a notice if a UA code isn't set
+* Bug Fix: Plugin will now trigger events if a UA code is set in the feed but not in the settings
+* Enhancement: Document Path will now be set as part of event creation
+* Enhancement: Measurement protocol updated
+* Enhancement: Measurement protocol will not detect SSL and use the appropriate protocol 
 
 = 1.6.5 =
 * Released 2015-12-11
@@ -149,6 +170,12 @@ Check out the documentation on [github](https://github.com/nathanmarks/wordpress
 * Enabled custom category/action/label on a per form basis.
 
 == Upgrade Notice ==
+
+= 1.7.1 =
+Removing SSL requirement. Needs more testing.
+
+= 1.7.0 =
+Updates to measurement protocol. Friendly notices for incompatible PHP versions and no UA codes.
 
 = 1.6.5 =
 Ability to add multiple UA codes in the feed settings

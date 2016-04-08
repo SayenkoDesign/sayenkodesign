@@ -94,16 +94,14 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 		// Move this hook so everything else is all done and dusted first!
 		remove_filter( 'gform_entry_post_save', array( $this, 'maybe_process_feed' ) );
 		
+		$this->load_ua_settings();
+		$this->load_measurement_client();
 
-		if ( $this->load_ua_settings() ) {
-			$this->load_measurement_client();
+		add_filter( 'gform_after_submission', array( $this, 'maybe_process_feed' ), 10, 2 );
 
-			add_filter( 'gform_after_submission', array( $this, 'maybe_process_feed' ), 10, 2 );
-
-			// IPN hook for paypal standard!
-			if ( class_exists( 'GFPayPal' ) ) {
-				add_action( 'gform_paypal_post_ipn', array( $this, 'paypal_track_form_post_ipn' ), 10, 2 );
-			}
+		// IPN hook for paypal standard!
+		if ( class_exists( 'GFPayPal' ) ) {
+			add_action( 'gform_paypal_post_ipn', array( $this, 'paypal_track_form_post_ipn' ), 10, 2 );
 		}
 
 	}
@@ -147,7 +145,7 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 		
 		$this->ua_id = $ua_id = false;
 
-		$ua_id = $gravity_forms_add_on_settings[ 'gravity_forms_event_tracking_ua' ];
+		$ua_id = isset( $gravity_forms_add_on_settings[ 'gravity_forms_event_tracking_ua' ] ) ? $gravity_forms_add_on_settings[ 'gravity_forms_event_tracking_ua' ] : '';
 
 		$ua_regex = "/^UA-[0-9]{5,}-[0-9]{1,}$/";
 
@@ -309,20 +307,7 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 	private function push_event( $entry, $form, $ga_event_data ) {
         
         //Get all analytics codes to send
-        $google_analytics_codes = array();
-        if ( !empty( $ga_event_data[ 'gaEventUA' ] ) ) {
-            $ga_ua = explode( ',', $ga_event_data[ 'gaEventUA' ] );
-            if ( is_array( $ga_ua ) ) {
-                foreach( $ga_ua as &$value ) {
-                    $value = trim( $value );   
-                } 
-            }
-            $google_analytics_codes = $ga_ua;
-        }
-        if( $this->ua_id ) {
-            $google_analytics_codes[] = $this->ua_id;
-        }
-        $google_analytics_codes = array_unique( $google_analytics_codes );
+        $google_analytics_codes = $this->get_ua_codes( $ga_event_data[ 'gaEventUA' ], $this->ua_id );
         
         /**
 		* Filter: gform_ua_ids
@@ -335,20 +320,65 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 		* @param object $form Gravity Form form object
 		* @param object $entry Gravity Form Entry Object
 		*/
-        $google_analytics_codes = apply_filters( 'gform_ua_ids', $google_analytics_codes, $form, $entry ); 
+        $google_analytics_codes = apply_filters( 'gform_ua_ids', $google_analytics_codes, $form, $entry );
         
+        if ( !is_array( $google_analytics_codes ) || empty( $google_analytics_codes ) ) return; 
+                
 		$event = new \Racecore\GATracking\Tracking\Event();
-
+		
 		// Set some defaults
+		$event->setDocumentPath( str_replace( home_url(), '', $entry[ 'source_url' ] ) );
 		$event->setDocumentLocation( $ga_event_data['document_location'] );
 		$event->setDocumentTitle( $ga_event_data['document_title'] );
 		
 		// Set our event object variables
+		/**
+		* Filter: gform_event_category
+		*
+		* Filter the event category dynamically
+		*
+		* @since 1.6.5
+		*
+		* @param string $category Event Category
+		* @param object $form     Gravity Form form object
+		* @param object $entry    Gravity Form Entry Object
+		*/
 		$event->setEventCategory( apply_filters( 'gform_event_category', $ga_event_data['gaEventCategory'], $form, $entry ) );
+		/**
+		* Filter: gform_event_action
+		*
+		* Filter the event action dynamically
+		*
+		* @since 1.6.5
+		*
+		* @param string $action Event Action
+		* @param object $form   Gravity Form form object
+		* @param object $entry  Gravity Form Entry Object
+		*/
 		$event->setEventAction( apply_filters( 'gform_event_action', $ga_event_data['gaEventAction'], $form, $entry ) );
+		/**
+		* Filter: gform_event_label
+		*
+		* Filter the event label dynamically
+		*
+		* @since 1.6.5
+		*
+		* @param string $label Event Label
+		* @param object $form  Gravity Form form object
+		* @param object $entry Gravity Form Entry Object
+		*/
 		$event->setEventLabel( apply_filters( 'gform_event_label', $ga_event_data['gaEventLabel'], $form, $entry ) );
 		
-		
+		/**
+		* Filter: gform_event_value
+		*
+		* Filter the event value dynamically
+		*
+		* @since 1.6.5
+		*
+		* @param object $form Gravity Form form object
+		* @param object $entry Gravity Form Entry Object
+		*/
 		if ( $event_value = apply_filters( 'gform_event_value', $ga_event_data['gaEventValue'], $form, $entry ) ) {
 			// Event value must be a valid float!
 			$event_value = GFCommon::to_number( $event_value );
@@ -357,11 +387,10 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 		
 		//Push out the event to each UA code
 		foreach( $google_analytics_codes as $ua_code ) {
+			
     		$tracking = new \Racecore\GATracking\GATracking( $ua_code );
-    		$tracking->addTracking( $event );
-    		
     		try {
-    		    $tracking->send();
+    		    $tracking->sendTracking( $event );
     		} catch (Exception $e) {
     		    error_log( $e->getMessage() . ' in ' . get_class( $e ) );
     		}
@@ -418,6 +447,77 @@ class Gravity_Forms_Event_Tracking extends GFFeedAddOn {
 	 */
 	public function feed_settings_title() {
 		return __( 'Event Tracking Feed Settings', 'gravity-forms-google-analytics-event-tracking' );
+	}
+	
+	public function maybe_save_feed_settings( $feed_id, $form_id ) {
+		if ( ! rgpost( 'gform-settings-save' ) ) {
+			return $feed_id;
+		}
+
+		check_admin_referer( $this->_slug . '_save_settings', '_' . $this->_slug . '_save_settings_nonce' );
+
+		if ( ! $this->current_user_can_any( $this->_capabilities_form_settings ) ) {
+			GFCommon::add_error_message( esc_html__( "You don't have sufficient permissions to update the form settings.", 'gravityforms' ) );
+			return $feed_id;
+		}
+
+		// store a copy of the previous settings for cases where action would only happen if value has changed
+		$feed = $this->get_feed( $feed_id );
+		$this->set_previous_settings( $feed['meta'] );
+
+		$settings = $this->get_posted_settings();
+		$sections = $this->get_feed_settings_fields();
+		$settings = $this->trim_conditional_logic_vales( $settings, $form_id );
+
+		$is_valid = $this->validate_settings( $sections, $settings );
+		$result   = false;
+		
+		//Check for a valid UA code
+		$feed_ua_code = isset( $settings[ 'gaEventUA' ] ) ? $settings[ 'gaEventUA' ] : '';
+		$ua_codes = $this->get_ua_codes( $feed_ua_code, $this->get_ga_id() );
+		if ( empty( $ua_codes ) ) {
+			GFCommon::add_error_message( __( 'You must set a UA code for event tracking to work.', 'gravity-forms-google-analytics-event-tracking' ) );
+			return $feed_id;
+		} 
+		
+		
+		if ( $is_valid ) {
+			$settings = $this->filter_settings( $sections, $settings );
+			$feed_id = $this->save_feed_settings( $feed_id, $form_id, $settings );
+			if ( $feed_id ) {
+				GFCommon::add_message( $this->get_save_success_message( $sections ) );
+			} else {
+				GFCommon::add_error_message( $this->get_save_error_message( $sections ) );
+			}
+		} else {
+			GFCommon::add_error_message( $this->get_save_error_message( $sections ) );
+		}
+
+		return $feed_id;
+	}
+	
+	/**
+	 * Return Google Analytics GA Codes
+	 * 
+	 * @since 1.7.0
+	 * @return array Array of GA codes
+	 */
+	private function get_ua_codes( $feed_ua, $settings_ua ) {
+		$google_analytics_codes = array();
+        if ( !empty( $feed_ua ) ) {
+            $ga_ua = explode( ',', $feed_ua );
+            if ( is_array( $ga_ua ) ) {
+                foreach( $ga_ua as &$value ) {
+                    $value = trim( $value );   
+                } 
+            }
+            $google_analytics_codes = $ga_ua;
+        }
+        if( $settings_ua ) {
+            $google_analytics_codes[] = $settings_ua;
+        }
+        $google_analytics_codes = array_unique( $google_analytics_codes );
+        return $google_analytics_codes;
 	}
 
 	/**

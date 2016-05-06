@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Seattle Web Design</title>
+	<atom:link href="http://www.sayenkodesign.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.sayenkodesign.com</link>
+	<description>Bellevue Online Marketing Experts</description>
+	<lastBuildDate>Wed, 24 Sep 2014 08:35:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.2.1</generator>
+	<item>
+		<title>Comment on Top Graphic Design Trends in 2014 by mike sayenko</title>
+		<link>http://www.sayenkodesign.com/top-graphic-design-trends-in-2014/#comment-11201</link>
+		<dc:creator><![CDATA[mike sayenko]]></dc:creator>
+		<pubDate>Wed, 24 Sep 2014 08:35:49 +0000</pubDate>
+		<guid isPermaLink="false">http://www.sayenkodesign.com/?p=4879#comment-11201</guid>
+		<description><![CDATA[Thanks Mark, glad to help. It&#039;s very insightful to study marketing trends and how to leverage that information to better equip a business. Let me know if you have a subject you would like me to touch on for my next article.]]></description>
+		<content:encoded><![CDATA[<p>Thanks Mark, glad to help. It&#8217;s very insightful to study marketing trends and how to leverage that information to better equip a business. Let me know if you have a subject you would like me to touch on for my next article.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: www.sayenkodesign.com @ 2015-04-28 00:13:32 by W3 Total Cache -->

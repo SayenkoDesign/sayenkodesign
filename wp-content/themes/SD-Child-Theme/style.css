@@ -47,6 +47,16 @@ Template: SD
     color: #747474 !important;
 }
 
+
+/*---- MEGA MENU STYLING-----*/
+
+#wrapper .fusion-megamenu-wrapper .fusion-megamenu-title {
+    
+    text-align: center;
+}
+
+
+
 /*---- REMOVE SOCIAL ICONS IN MOBILE HEADER-----*/
 
 @media only screen and (max-width: 800px) {
@@ -505,17 +515,17 @@ a.button-2:hover {
     bottom: 220px;
 }
 #animted-icons1 .fusion-column:nth-child(2) .fusion-animated .heading-link.active img {
-    bottom: 226px;
+    bottom: 184px;
 }
 #animted-icons1 .fusion-column:nth-child(3) .fusion-animated .heading-link.active img {
-    bottom: 222px;
+    bottom: 219px;
 }
 
 #animted-icons2 .fusion-column:nth-child(1) .fusion-animated .heading-link.active img {
     bottom: 219px;
 }
 #animted-icons2 .fusion-column:nth-child(2) .fusion-animated .heading-link.active img {
-    bottom: 217px;
+    bottom: 214px;
     left: 3px;
 }
 #animted-icons2 .fusion-column:nth-child(3) .fusion-animated .heading-link.active img {

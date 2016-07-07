@@ -5,6 +5,18 @@ Author: Sayenko Design
 Template: SD
 */
 
+.header-social .google-phone {
+    font-family: Lato, helvetica neue, helvetica;
+    font-size:19px;
+    color:#009fe3;
+}
+
+#mobile-nav.mobile-sticky-nav {
+height: 330px !important;
+}
+
+
+
 /**
  * Push and Pull
  *
@@ -55,7 +67,9 @@ Template: SD
     text-align: center;
 }
 
-
+.fusion-megamenu-widgets-container.second-level-widget .textwidget {
+    height: 105px;
+}
 
 /*---- REMOVE SOCIAL ICONS IN MOBILE HEADER-----*/
 
@@ -172,6 +186,7 @@ Template: SD
 
 /* ---- GRAVITY FORM -----*/
 
+
 .gform_wrapper .top_label li.gfield.gf_right_half {
     margin-bottom: 0px;
     margin-left: 0;
@@ -195,6 +210,8 @@ Template: SD
 .header-info a {
     color: #747474 !important;
 }
+
+
 
 /* ---- FOOTER STYLES -----*/
 
@@ -495,6 +512,12 @@ a.button-2:hover {
     text-transform: uppercase !important;
 }
 
+
+/* /case-studies/nwcg */
+
+.page-id-7410 #main { padding-top: 0; }
+
+
 /* /case-studies/intellectual-ventures */
 .page-id-7112 #main { padding-top: 0; }
 
@@ -531,3 +554,10 @@ a.button-2:hover {
 #animted-icons2 .fusion-column:nth-child(3) .fusion-animated .heading-link.active img {
     bottom: 219px;
 }
+
+/*---- CONTACT PAGE - Mike's Picture
+.contact-image {
+    position: relative;
+    top: 3px;
+}-----*/
+

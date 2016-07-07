@@ -1,4 +1,9 @@
 <?php
+add_action('wp_enqueue_scripts', function () {
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
+});
+
 function avada_child_scripts() {
 	if ( ! is_admin() && ! in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) ) ) {
 		$theme_info = wp_get_theme();
@@ -9,9 +14,13 @@ function avada_child_scripts() {
 }
 add_action('wp_enqueue_scripts', 'avada_child_scripts');
 
-
-
-
+add_action('wp_head', function(){
+    echo <<<HTML
+<script type="text/javascript">
+(function(a,e,c,f,g,b,d){var h={ak:"1036233801",cl:"uuxqCJeTkWMQydiO7gM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+</script>
+HTML;
+});
 
 /**
 * Calculation Subtotal Merge Tag

@@ -384,9 +384,7 @@ if( ! class_exists( 'FusionCoreFrontendWalker' ) ) {
 
 					$heading = sprintf( '%s%s%s%s', $link, $title_enhance, $title, $link_closing );
 
-					if( $this->menu_megamenu_title != 'disabled' ) {
-						$item_output .= "<h3 class='fusion-megamenu-title'>" . $heading . "</h3>";
-					} else {
+					if( !$this->menu_megamenu_title != 'disabled' ) {
 						$item_output .= $heading;
 					}
 				}
@@ -399,6 +397,16 @@ if( ! class_exists( 'FusionCoreFrontendWalker' ) ) {
 						dynamic_sidebar( $this->menu_megamenu_widgetarea );
 
 					$item_output .= ob_get_clean() . '</div>';
+
+					if( !(
+						( empty( $item->url ) || $item->url == "#" || $item->url == 'http://' )  &&
+						$this->menu_megamenu_title == 'disabled'
+					)
+					){
+						if( $this->menu_megamenu_title != 'disabled' ) {
+							$item_output .= "<h3 class='fusion-megamenu-title'>" . $heading . "</h3>";
+						}
+					}
 				}
 
 				$class_columns  = ' {current_row_'.$this->num_of_rows.'}';

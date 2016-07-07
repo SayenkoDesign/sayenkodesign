@@ -1,0 +1,20 @@
+---------------------------------------------------------------------
+Version 1.0.beta5
+    - Added support for the Twenty Sixteen theme.
+    - Removed from Logging settings page.
+	- Updated plugin filename in gf_mu_debug.php $always_load_plugins
+	- Updated plugin filename.
+
+---------------------------------------------------------------------
+Version 1.0.beta4
+	- Updated Gravity Forms plugin list to be populated via Gravity Manager
+
+---------------------------------------------------------------------
+Version 1.0.beta3
+	- Added support for indicating which plugins are originally active on the WP install (outside of the debugger)
+
+---------------------------------------------------------------------
+Version 1.0.beta2.1
+	- Updated enabling conflict tester to install the mu plugin *before* redirecting back to the settings page; this allows the error checker to provide immediate feedback
+
+---------------------------------------------------------------------

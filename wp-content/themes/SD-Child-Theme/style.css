@@ -555,9 +555,9 @@ a.button-2:hover {
     bottom: 219px;
 }
 
-/*---- CONTACT PAGE - Mike's Picture
-.contact-image {
-    position: relative;
-    top: 3px;
-}-----*/
-
+/* contact page */
+.page-id-86 #main > .avada-row {
+    background-image: url("mike-wayenko-seattle-web-design.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}

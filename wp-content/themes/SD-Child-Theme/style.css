@@ -604,6 +604,9 @@ a.button-2:hover {
 
 
 /* contact page */
+#gform_wrapper_2 {
+    display: block !important;
+}
 @media only screen and (min-width: 801px) {
     .mike-background > .avada-row {
         background-image: url("mike-sayenko-seattle-web-design.png");

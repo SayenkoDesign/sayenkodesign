@@ -1137,7 +1137,7 @@
 		.gform_wrapper .gform_footer {padding:1em 0 0.625em; margin:1em 0 0;}
 		.gform_wrapper .top_label .gfield_label {display:block; clear:both; font-weight:700; margin:0; line-height:30px;}
 		.gform_wrapper .top_label input.large, .gform_wrapper .top_label select.large, .gform_wrapper .top_label textarea.textarea {width:98%;}
-		.gform_wrapper .top_label li.gfield.gf_middle_third, .gform_wrapper .top_label li.gfield.gf_right_third {margin-left:1.3%!important; margin-bottom:.5em;}
+		.gform_wrapper .top_label li.gfield.gf_middle_third, .gform_wrapper .top_label li.gfield.gf_right_third {margin-left:0%!important; margin-bottom:.5em;}
 		.gform_wrapper .top_label li.gfield.gf_left_third {margin-left:0px !important;}
 		button.close {position:relative; z-index:99999999;}
 		.gform_wrapper .top_label li.gfield.gf_right_third {float:right;}

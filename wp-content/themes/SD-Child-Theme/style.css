@@ -6,13 +6,26 @@ Template: SD
 */
 
 .header-social .google-phone {
-    font-family: Lato, helvetica neue, helvetica;
+    font-family: 'Lato', 'helvetica neue', 'helvetica', sans-serif;
     font-size:19px;
     color:#009fe3;
 }
 
 #mobile-nav.mobile-sticky-nav {
 height: 330px !important;
+}
+
+
+/**
+ * Contact page image
+ * 
+ */
+
+.sayenko-contact {
+
+position:relative; 
+bottom: 0px;
+
 }
 
 
@@ -182,9 +195,24 @@ height: 330px !important;
     padding-bottom: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+
+    font-size: 18px;
+    line-height: 32px;
 }
 
 /* ---- GRAVITY FORM -----*/
+
+
+.gform_wrapper ul li.gfield {
+    clear: none !important;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 7px 4px !important;
+    letter-spacing: normal;
+}
 
 
 .gform_wrapper .top_label li.gfield.gf_right_half {
@@ -194,6 +222,7 @@ height: 330px !important;
     margin-top: 0;
     width: 49%;
 }
+
 
 .gravity-select-parent {
     height: 33px !important;
@@ -513,9 +542,19 @@ a.button-2:hover {
 }
 
 
-/* /case-studies/nwcg */
+/* Case Studies - /nwcg /wa-rock & service pages  /web-development */
 
 .page-id-7410 #main { padding-top: 0; }
+.page-id-7420 #main { padding-top: 0; }
+.page-id-7486 #main { padding-top: 0; }  /* /custom-web-design/ */
+.page-id-7492 #main { padding-top: 0 !important; }  /* /web-development */
+.page-id-7520 #main { padding-top: 0 !important; }  /* /web-strategy */
+.page-id-7535 #main { padding-top: 0 !important; }  /* /secure-maintenance/  */
+
+.page-id-7537 #main { padding-top: 0 !important; }  /* /search-engine-marketing/ */
+.page-id-7574 #main { padding-top: 0 !important; }  /* /business-branding/  */
+
+
 
 
 /* /case-studies/intellectual-ventures */
@@ -544,6 +583,13 @@ a.button-2:hover {
     bottom: 219px;
 }
 
+#animted-icons1 .fusion-column:nth-child(4) .fusion-animated .heading-link.active img {
+    bottom: 214px;
+    left: 3px;
+
+}
+
+
 #animted-icons2 .fusion-column:nth-child(1) .fusion-animated .heading-link.active img {
     bottom: 219px;
 }
@@ -555,9 +601,21 @@ a.button-2:hover {
     bottom: 219px;
 }
 
+
+
 /* contact page */
-.page-id-86 #main > .avada-row {
-    background-image: url("mike-wayenko-seattle-web-design.png");
-    background-repeat: no-repeat;
-    background-position: bottom left;
+@media only screen and (min-width: 801px) {
+    .mike-background > .avada-row {
+        background-image: url("mike-sayenko-seattle-web-design.png");
+        background-repeat: no-repeat;
+        background-position: 0 -15px;
+    }
 }
+
+@media only screen and (max-width: 801px) { 
+	.mobile-blank {
+		display:none;
+
+   }
+}
+
